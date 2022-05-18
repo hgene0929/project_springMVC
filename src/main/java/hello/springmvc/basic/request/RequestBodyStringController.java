@@ -42,7 +42,7 @@ public class RequestBodyStringController {
         String messageBody = StreamUtils.copyToString(inputStream, StandardCharsets.UTF_8);
 
         log.info("messageBody={}", messageBody);
-        responseWriter.write("ok");
+        responseWriter.write("ok"); //Writer 객체에서 write() 메서드 사용 가능
     }
 
     /**
