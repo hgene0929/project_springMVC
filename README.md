@@ -28,7 +28,7 @@
 
 <h3>http 응답 메시지 처리</h3>
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>컨트롤러에서 처리한 데이터를 모델객체에 담아 뷰로 응답하는 방법( ModelAndView , Model 객체 사용 )</li>
+  <li>컨트롤러에서 처리한 데이터를 모델객체에 담아 문자열로 응답하는 방법( HttpServletResponse , HttpEntity(ResponseEntity) , @ResponseBody 객체 사용 )</li>
+  <li>컨트롤러에서 처리한 데이터를 모델객체에 담아 JSON으로 응답하는 방법( HttpEntity(ReponseEntity), @ResponseBody 객체 사용)</li>
 </ul>
